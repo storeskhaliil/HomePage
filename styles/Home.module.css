@@ -1,0 +1,148 @@
+body {
+  direction: rtl;
+  font-family: "Cairo", sans-serif;
+  margin: 0;
+  background-color: #0e0e0e;
+  color: #f3f3f3;
+}
+
+.hero {
+  height: 90vh;
+  background: url("/bg.jpg") center/cover no-repeat;
+  position: relative;
+}
+
+.overlay {
+  background: rgba(0, 0, 0, 0.65);
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 0 20px;
+}
+
+.overlay h1 {
+  font-size: 3rem;
+  font-weight: 700;
+}
+
+.overlay h1 span {
+  color: #ffb347;
+}
+
+.overlay p {
+  font-size: 1.2rem;
+  margin-top: 10px;
+  color: #d0d0d0;
+}
+
+.cta button {
+  margin-top: 25px;
+  padding: 14px 34px;
+  font-size: 1rem;
+  background: #ffb347;
+  color: #000;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.cta button:hover {
+  background: #ff9900;
+  transform: scale(1.05);
+}
+
+section {
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.services h2,
+.whyme h2,
+.templates h2,
+.contact h2 {
+  font-size: 2rem;
+  margin-bottom: 25px;
+  color: #ffb347;
+}
+
+.grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 25px;
+}
+
+.grid div {
+  background: #1a1a1a;
+  padding: 20px;
+  border-radius: 10px;
+  width: 280px;
+  transition: 0.3s;
+}
+
+.grid div:hover {
+  transform: translateY(-5px);
+  background: #242424;
+}
+
+.whyme ul {
+  list-style: none;
+  padding: 0;
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+.whyme li {
+  margin: 10px 0;
+  font-size: 1.1rem;
+  color: #e0e0e0;
+}
+
+.templatesGrid {
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+  flex-wrap: wrap;
+}
+
+.templateCard {
+  background: #1a1a1a;
+  color: #fff;
+  padding: 25px 40px;
+  border-radius: 8px;
+  font-weight: 600;
+  transition: 0.3s;
+  text-decoration: none;
+}
+
+.templateCard:hover {
+  background: #ffb347;
+  color: #000;
+}
+
+.contactBtn {
+  display: inline-block;
+  background: #ffb347;
+  color: #000;
+  padding: 12px 30px;
+  border-radius: 6px;
+  text-decoration: none;
+  margin-top: 15px;
+  font-weight: bold;
+}
+
+.footer {
+  text-align: center;
+  padding: 30px 10px;
+  border-top: 1px solid #222;
+  color: #aaa;
+}
+
+.footer a {
+  color: #ffb347;
+  text-decoration: none;
+}
