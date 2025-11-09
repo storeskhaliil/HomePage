@@ -1,4 +1,3 @@
-
 .hero {
   height: 90vh;
   background: url("/bg.jpg") center/cover no-repeat;
@@ -48,9 +47,14 @@
   transform: scale(1.05);
 }
 
-section {
+/* ✅ Instead of styling <section>, we create reusable section classes */
+.section {
   padding: 60px 20px;
   text-align: center;
+}
+
+.services {
+  composes: section;
 }
 
 .services h2,
@@ -82,6 +86,10 @@ section {
   background: #242424;
 }
 
+.whyme {
+  composes: section;
+}
+
 .whyme ul {
   list-style: none;
   padding: 0;
@@ -93,6 +101,10 @@ section {
   margin: 10px 0;
   font-size: 1.1rem;
   color: #e0e0e0;
+}
+
+.templates {
+  composes: section;
 }
 
 .templatesGrid {
@@ -115,6 +127,10 @@ section {
 .templateCard:hover {
   background: #ffb347;
   color: #000;
+}
+
+.contact {
+  composes: section;
 }
 
 .contactBtn {
