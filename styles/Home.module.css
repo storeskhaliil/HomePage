@@ -47,7 +47,6 @@
   transform: scale(1.05);
 }
 
-/* ✅ Instead of styling <section>, we create reusable section classes */
 .section {
   padding: 60px 20px;
   text-align: center;
@@ -55,6 +54,7 @@
 
 .services {
   composes: section;
+  line-height:1.8;
 }
 
 .services h2,
@@ -62,7 +62,7 @@
 .templates h2,
 .contact h2 {
   font-size: 2rem;
-  margin-bottom: 25px;
+  padding-bottom: 25px;
   color: #ffb347;
 }
 
@@ -149,6 +149,7 @@
   padding: 30px 10px;
   border-top: 1px solid #222;
   color: #aaa;
+  direction:ltr;
 }
 
 .footer a {
