@@ -15,15 +15,14 @@
 .header {
     position: fixed;
     top: 0;
-    width:90%;
+    width:100%;
     left: 50%;
     transform: translateX(-50%);
     display: flex;
     align-items: center;
     justify-content: space-around;
     gap:20px;
-    border-bottom: 1px solid #ffffff27;
-    background-color: #0000002d;
+    background-color: #00000004;
     padding: 20px 0;
 }
 
@@ -32,15 +31,14 @@
     text-align: center;
     cursor: pointer;
     font-size: 18px;
-    color: #ff9900
-
+    color: #d0d0d0;
+    text-underline-offset: 8px;
 }
 
 .header a:hover {
-  color: #d0d0d0;
+  color: #ff9900;
   transform: scale(1.05);
   text-decoration: underline;
-  text-underline-offset: 4px;
 }
 
 #logo-img {
