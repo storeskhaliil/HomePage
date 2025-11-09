@@ -1,0 +1,119 @@
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Intro */
+.intro {
+  text-align: center;
+  padding: 80px 20px;
+}
+
+.intro p:first-child {
+  font-size: 2rem;
+  font-weight: 700;
+  color: var(--accent-color);
+  margin-bottom: 15px;
+}
+
+.intro p:last-child {
+  font-size: 1.5rem;
+  color: #bbb;
+}
+
+/* Templates */
+.templates {
+  padding: 80px 20px;
+  text-align: center;
+}
+
+.templates h2 {
+  font-size: 2rem;
+  color: var(--accent-color);
+  margin-bottom: 50px;
+}
+
+.templatesGrid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 25px;
+}
+
+.templateCard {
+  background: var(--card-bg);
+  color: var(--text-color);
+  padding: 25px 40px;
+  border-radius: 10px;
+  font-weight: 600;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+.templateCard:hover {
+  background: var(--card-hover);
+  color: var(--card-text-hover);
+  transform: translateY(-5px);
+}
+
+/* Subscriptions */
+.subscriptions {
+  padding: 80px 20px;
+  text-align: center;
+}
+
+.subscriptions h2 {
+  font-size: 2rem;
+  color: var(--accent-color);
+  margin-bottom: 50px;
+}
+
+.subGrid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 25px;
+}
+
+.subCard {
+  background: var(--card-bg);
+  padding: 25px 40px;
+  border-radius: 10px;
+  transition: 0.3s;
+}
+
+.subCard:hover {
+  background: var(--card-hover);
+  color: var(--card-text-hover);
+  transform: translateY(-5px);
+}
+
+.subCard h3 {
+  margin-bottom: 10px;
+}
+
+/* How it works */
+.howItWorks {
+  padding: 80px 20px;
+  text-align: center;
+}
+
+.howItWorks h2 {
+  font-size: 2rem;
+  color: var(--accent-color);
+  margin-bottom: 40px;
+}
+
+.howItWorks ol {
+  list-style: decimal inside;
+  max-width: 700px;
+  margin: 0 auto;
+  padding: 0;
+  color: #ccc;
+  line-height: 2;
+}
+
+.howItWorks li {
+  margin-bottom: 15px;
+}
