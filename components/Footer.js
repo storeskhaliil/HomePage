@@ -14,9 +14,9 @@ export default function Footer() {
 
       <footer className={styles.footer}>
         <p>
-          © {new Date().getFullYear()} CrtMenu | صُمم بواسطة{" "}
+          © {new Date().getFullYear()} CrtMenu | {" "}
           <a href="https://khaliil.com" target="_blank" rel="noreferrer">
-            KHALIIL
+            KHALIIL.COM
           </a>
         </p>
       </footer>
