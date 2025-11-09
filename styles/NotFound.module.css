@@ -25,7 +25,7 @@
 }
 
 
-.header a:hover {
+.container a:hover {
   color: #ff9900;
   transform: scale(1.05);
   text-decoration: underline;
