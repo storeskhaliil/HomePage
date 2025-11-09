@@ -23,7 +23,7 @@ export default function Home() {
         </div>
       </div>
 
-      <section className={styles.services}>
+<section className={`${styles.section} ${styles.services}`}>
         <h2>خدماتي</h2>
         <div className={styles.grid}>
           <div>
@@ -41,7 +41,7 @@ export default function Home() {
         </div>
       </section>
 
-      <section className={styles.whyme}>
+<section className={`${styles.section} ${styles.services}`}>
         <h2>لماذا تختارني؟</h2>
         <ul>
           <li>تصميم عصري وسريع الاستجابة لكل الأجهزة</li>
@@ -50,7 +50,7 @@ export default function Home() {
         </ul>
       </section>
 
-      <section className={styles.templates}>
+<section className={`${styles.section} ${styles.services}`}>
         <h2>اختر التصميم المناسب لك</h2>
         <div className={styles.templatesGrid}>
           <Link href="/tem1" className={styles.templateCard}>قالب 1</Link>
@@ -59,7 +59,7 @@ export default function Home() {
         </div>
       </section>
 
-      <section className={styles.contact}>
+<section className={`${styles.section} ${styles.services}`}>
         <h2>تواصل معي</h2>
         <p>للطلبات والاستفسارات، راسلني مباشرة:</p>
         <a href="/contact" className={styles.contactBtn}>تواصل الآن</a>
