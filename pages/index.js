@@ -14,7 +14,6 @@ export default function Home() {
 
       <main
         style={{
-          fontFamily: "'Cairo', sans-serif",
           direction: "rtl",
           backgroundColor: "#0B0B0B",
           color: "#F8F8F8",
