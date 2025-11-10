@@ -1,4 +1,4 @@
-import styles from "../styles/terms.module.css";
+import styles from "../styles/Terms.module.css";
 
 export default function TermsPage() {
   return (
