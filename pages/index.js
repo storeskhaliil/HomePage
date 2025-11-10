@@ -75,18 +75,10 @@ export default function Home() {
   </ul>
 </section>
 
-<section className={`${styles.section} ${styles.services}`}>
-        <h2>اختر التصميم المناسب لك</h2>
-        <div className={styles.templatesGrid}>
-          <Link href="/tem1" className={styles.templateCard}>قالب 1</Link>
-          <Link href="/tem2" className={styles.templateCard}>قالب 2</Link>
-          <Link href="/tem3" className={styles.templateCard}>قالب 3</Link>
-        </div>
-      </section>
+
 
 <section className={`${styles.section} ${styles.services}`}>
         <h2>تواصل معي</h2>
-        <p>للطلبات والاستفسارات، راسلني مباشرة:</p>
         <a href="/contact" className={styles.contactBtn}>تواصل الآن</a>
       </section>
 
