@@ -1,13 +1,12 @@
 .footer {
   text-align: center;
   padding: 30px 10px;
-  border-top: 1px solid #222;
-  color: #aaa;
+  border-top: 1px solid #111;
   direction:ltr;
 }
 
 .footer a {
-  color: #ffb347;
+  color: var(--text-color);
   text-decoration: none;
 }
 
@@ -31,12 +30,12 @@
     text-align: center;
     cursor: pointer;
     font-size: 18px;
-    color: #d0d0d0;
+    color: var(--text-color);
     text-underline-offset: 8px;
 }
 
 .header a:hover {
-  color: #ff9900;
+  color: var(--card-text-hover);
   transform: scale(1.05);
   text-decoration: underline;
 }
