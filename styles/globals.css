@@ -2,12 +2,12 @@
 
 
 :root {
-  --bg-color: #4b4b48;
-  --text-color: #e4e4e2;
-  --accent-color: #a67c52;
-  --card-bg: #5a5955;
-  --card-hover: #857154;
-  --card-text-hover: #f0f0f0;
+  --bg-color: #3F4F44;        /* خلفية: أغمق لون هادي يعطي عمق وراحة للعين */
+  --text-color: #DCD7C9;      /* نصوص: فاتح وواضح على الخلفية الغامقة */
+  --accent-color: #A27B5C;    /* لمسات: ألوان دافئة وراقية للـ hover أو buttons */
+  --card-bg: #2C3930;         /* كروت: أغمق شوي من الخلفية لكن متناسق */
+  --card-hover: #A27B5C;      /* لون الهفر للكروت نفس الـ accent */
+  --card-text-hover: #3F4F44; /* لون النص وقت الهفر متباين مع الكارد */
 }
 
 * {
