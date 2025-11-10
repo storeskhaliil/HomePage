@@ -17,7 +17,7 @@ export default function Home() {
         <div className={styles.overlay}>
           <h1>صمم موقع مطعمك الخاص مع <span>CrtMenu</span></h1>
           <p>ابدأ رحلتك الرقمية — موقع أنيق لمطعمك خلال يوم واحد فقط</p>
-          <Link href="/subscriptions" className={styles.cta}>
+          <Link href="/start" className={styles.cta}>
             <button>ابدأ الآن</button>
           </Link>
         </div>
