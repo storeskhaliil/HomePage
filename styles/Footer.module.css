@@ -6,7 +6,7 @@
 }
 
 .footer a {
-  color: var(--text-color);
+  color: var(--link-color);
   text-decoration: none;
 }
 
@@ -30,12 +30,12 @@
     text-align: center;
     cursor: pointer;
     font-size: 18px;
-    color: var(--text-color);
+    color: var(--link-color);
     text-underline-offset: 8px;
 }
 
 .header a:hover {
-  color: var(--card-text-hover);
+  color: var(--link-hover-color);
   transform: scale(1.05);
   text-decoration: underline;
 }
