@@ -1,7 +1,7 @@
 .footer {
   text-align: center;
   padding: 30px 10px;
-  border-top: 1px solid #111;
+  border-top: 1px solid #5e5d5d;
   direction:ltr;
 }
 
@@ -30,7 +30,7 @@
     text-align: center;
     cursor: pointer;
     font-size: 18px;
-    color: var(--link-color);
+    color: var(--text-color);
     text-underline-offset: 8px;
 }
 
