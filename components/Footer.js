@@ -13,8 +13,13 @@ export default function Footer() {
       </header>
 
       <footer className={styles.footer}>
+        
+        <div className={styles.links}>
+        <Link href="/terms">الشروط والاحكام</Link>
+        </div>
+        
         <p>
-          © {new Date().getFullYear()} CrtMenu | {" "}
+          © {new Date().getFullYear()} CRTMenu | {" "}
           <a href="https://khaliil.com" target="_blank" rel="noreferrer">
             KHALIIL.COM
           </a>
