@@ -2,12 +2,32 @@
 
 
 :root {
-  --bg-color: #1e1e1e;        /* خلفية داكنة هادية */
-  --text-color: #f5f5f5;      /* نصوص واضحة على الخلفية الداكنة */
-  --accent-color: #b35e2e;    /* لمسة دافئة وراقية للأزرار والـ hover */
-  --card-bg: #2c2c2c;         /* كروت داكنة شوي لكن متباينة عن الخلفية */
-  --card-hover: #b35e2e;      /* لون الكارد وقت الهفر */
-  --card-text-hover: #ffffff; /* نص الكارد وقت الهفر */
+  --bg-color: #1e1e1e;
+  --text-color: #f5f5f5;
+  --accent-color: #b35e2e;
+  --card-bg: #2c2c2c;
+  --card-hover: #b35e2e;
+  --card-text-hover: #ffffff;
+
+  --h1-color: #f0c19f;
+  --h2-color: #f5d0a3;
+  --h3-color: #f5e0b3;
+
+  --link-color: #b35e2e;
+  --link-hover-color: #f5f5f5;
+
+  --button-bg: #b35e2e;
+  --button-text: #ffffff;
+  --button-hover-bg: #f0c19f;
+  --button-hover-text: #1e1e1e;
+
+  --input-bg: #2c2c2c;
+  --input-text: #f5f5f5;
+  --input-border: #555555;
+  --input-focus-border: #b35e2e;
+
+  --border-color: #3a3a3a;
+  --shadow-color: rgba(0,0,0,0.5);
 }
 
 * {
