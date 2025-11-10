@@ -10,12 +10,12 @@
 .container h1 {
   font-size: 6rem;
   padding-bottom: 10px;
-  color:#ffb347;
+  color: var(--h1-color);
 }
 
 .container a {
   margin-top: 20px;
-  color: #fff;
+  color: var(--link-color);
   text-decoration: underline;
   text-underline-offset:10px;
 }
@@ -26,6 +26,6 @@
 
 
 .container a:hover {
-  color: #ff9900;
+  color: var(--link-hover-color);
   transform: scale(1.05);
 }
