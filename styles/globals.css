@@ -2,12 +2,12 @@
 
 
 :root {
-  --bg-color: #0b0b0b;
-  --text-color: #f3f3f3;
-  --accent-color: #ffb347;
-  --card-bg: #1a1a1a;
-  --card-hover: #ffb347;
-  --card-text-hover: #000;
+  --bg-color: #111111;
+  --text-color: #eaeaea;
+  --accent-color: #c8a96a;
+  --card-bg: #1b1b1b;
+  --card-hover: #c8a96a;
+  --card-text-hover: #111111;
 }
 
 * {
