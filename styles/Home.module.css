@@ -27,15 +27,15 @@
 .overlay p {
   font-size: 1.2rem;
   margin-top: 10px;
-  color: #d0d0d0;
+  color: var(--text-color);
 }
 
 .cta button {
   margin-top: 25px;
   padding: 14px 34px;
   font-size: 1rem;
-  background: #ffb347;
-  color: #000;
+  background: var(--button-bg);
+  color: var(--button-text);
   border: none;
   border-radius: 6px;
   cursor: pointer;
@@ -43,7 +43,7 @@
 }
 
 .cta button:hover {
-  background: #ff9900;
+  background: var(--button-hover-bg);
   transform: scale(1.05);
 }
 
@@ -63,7 +63,7 @@
 .contact h2 {
   font-size: 2rem;
   padding-bottom: 25px;
-  color: #ffb347;
+  color: var(--h2-color);
 }
 
 .grid {
@@ -100,7 +100,7 @@
 .whyme li {
   margin: 10px 0;
   font-size: 1.1rem;
-  color: #e0e0e0;
+  color: var(--text-color);
 }
 
 .templates {
@@ -116,7 +116,7 @@
 
 .templateCard {
   background: #1a1a1a;
-  color: #fff;
+  color: var(--text-color);
   padding: 25px 40px;
   border-radius: 8px;
   font-weight: 600;
@@ -125,8 +125,8 @@
 }
 
 .templateCard:hover {
-  background: #ffb347;
-  color: #000;
+  background: var(--card-hover);
+  color: var(--card-text-hover);
 }
 
 .contact {
@@ -135,8 +135,8 @@
 
 .contactBtn {
   display: inline-block;
-  background: #ffb347;
-  color: #000;
+  background: var(--button-bg);
+  color: var(--button-text);
   padding: 12px 30px;
   border-radius: 6px;
   text-decoration: none;
