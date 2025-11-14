@@ -53,6 +53,17 @@
   width: 90%; 
 }
 
+.templateCard iframe {
+  width:100%;
+  height:60vh;
+}
+
+.temtext {
+  font-size:18px;
+  text-align:center;
+  padding:5px;
+}
+
 .templateImage {
   width: 100%;
   height: 100%;
