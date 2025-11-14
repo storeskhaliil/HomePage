@@ -37,16 +37,16 @@ export default function StartPage() {
   <h2>القوالب المتوفرة</h2>
   <div className={styles.templatesGrid}>
     <Link href="/tem1" className={styles.templateCard}>
-      <img src="/images/tem1.jpg" alt="قالب 1" className={styles.templateImage} />
       <span className={styles.templateTitle}>قالب 1</span>
+      <img src="/images/tem1.jpg" alt="قالب 1" className={styles.templateImage} />
     </Link>
     <Link href="/tem2" className={styles.templateCard}>
+      <span className={styles.templateTitle}>قالب 1</span>
       <img src="/images/tem2.jpg" alt="قالب 2" className={styles.templateImage} />
-      <span className={styles.templateTitle}>قالب 2</span>
     </Link>
     <Link href="/tem3" className={styles.templateCard}>
+      <span className={styles.templateTitle}>قالب 1</span>
       <img src="/images/tem3.jpg" alt="قالب 3" className={styles.templateImage} />
-      <span className={styles.templateTitle}>قالب 3</span>
     </Link>
   </div>
 </section>
