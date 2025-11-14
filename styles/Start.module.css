@@ -53,17 +53,10 @@
   width: 90%; 
 }
 
-.templateCard:hover {
-  background: var(--card-hover);
-  color: var(--card-text-hover);
-  transform: translateY(-5px);
-}
-
 .templateImage {
   width: 100%;
   height: 100%;
   object-fit: cover;
-  border-radius: 10px;
   margin-bottom: 10px;
 }
 
