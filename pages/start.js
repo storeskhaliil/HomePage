@@ -44,7 +44,44 @@ export default function StartPage() {
 </section>
 
 
+<section className={styles.subscriptions}>
+  <h2>الباقات والخطط</h2>
 
+  <div className={styles.subScroll}>
+    <div className={styles.subCard}>
+      <h3>الباقة الشهرية</h3>
+      <p className={styles.price}>₪99/شهر</p>
+      <ul className={styles.features}>
+        <li>تحديثات مستمرة</li>
+        <li>دعم فني دائم</li>
+        <li>تحديثات سريعة عند الطلب</li>
+      </ul>
+      <Link href="/plans/monthly" className={styles.subLink}>المزيد / الاشتراك</Link>
+    </div>
+
+    <div className={styles.subCard}>
+      <h3>باقة الدفع لمرة واحدة</h3>
+      <p className={styles.price}>₪399</p>
+      <ul className={styles.features}>
+        <li>تصميم كامل</li>
+        <li>تحديث واحد مجاني</li>
+        <li>استضافة سنة كاملة</li>
+      </ul>
+      <Link href="/plans/one-time" className={styles.subLink}>المزيد / الاشتراك</Link>
+    </div>
+
+    <div className={styles.subCard}>
+      <h3>باقة الأعمال</h3>
+      <p className={styles.price}>₪199/شهر</p>
+      <ul className={styles.features}>
+        <li>تصميم مخصص</li>
+        <li>إدارة المحتوى</li>
+        <li>دعم优优优優</li>
+      </ul>
+      <Link href="/plans/business" className={styles.subLink}>المزيد / الاشتراك</Link>
+    </div>
+  </div>
+</section>
 
 
       </main>
