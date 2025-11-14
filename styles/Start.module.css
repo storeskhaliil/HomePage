@@ -101,7 +101,7 @@ display:none;
 .subCard {
   min-width: 300px;
   max-width: 350px;
-  min-height:200px
+  min-height:200px;
   background: var(--card-bg);
   padding: 25px;
   border-radius: 12px;
