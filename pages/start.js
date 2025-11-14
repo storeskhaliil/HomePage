@@ -38,7 +38,7 @@ export default function StartPage() {
   <div className={styles.templatesGrid}>
     <Link href="/tem1" className={styles.templateCard}>
       <span className={styles.templateTitle}>قالب 1</span>
-      <img src="/images/tem1.jpg" alt="قالب 1" className={styles.templateImage} />
+      <img src="https://pub-ee2f104c723f43b28a9c1f7bb48535d2.r2.dev/Tem1.gif" alt="قالب 1" className={styles.templateImage} />
     </Link>
     <Link href="/tem2" className={styles.templateCard}>
       <span className={styles.templateTitle}>قالب 1</span>
