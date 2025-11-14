@@ -69,8 +69,6 @@
 .subscriptions {
   padding: 80px 20px;
   text-align: center;
-  width:90%;
-  margin:0 auto;
 }
 
 .subscriptions h2 {
@@ -88,7 +86,6 @@
   scroll-snap-type: x mandatory;
   scrollbar-width:none;
   -webkit-overflow-scrolling: touch;
-  width:100%;
 }
 
 .subScroll::-webkit-scrollbar {
