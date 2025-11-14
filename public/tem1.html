@@ -185,52 +185,77 @@ body {
   pointer-events: auto;
 }
 
+
+
+
 .overlay-content {
-  background: #fefefe;
-  border-radius: 4px;
-  width: 90%;
-  max-width: 600px;
-  text-align: center;
-  padding: 25px 20px 60px;
-  position: relative;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background: rgba(255,255,255,0.95);
+  display: flex;
+  flex-direction: column;
+  pointer-events: auto;
+  overflow: hidden;
+  z-index: 100001;
   animation: slideUp 0.35s ease;
 }
 
+/* Fixed product image at top */
 .overlay-content img {
   width: 100%;
-  max-height: 280px;
+  max-height: 40%;
   object-fit: cover;
-  border-radius: 8px;
-  margin-bottom: 15px;
+  flex-shrink: 0;
 }
 
-.overlay-content h2 {
-  margin-bottom: 5px;
+/* Scrollable info */
+.overlay-info {
+  padding: 20px;
+  overflow-y: auto;
+  flex: 1;
 }
 
-.overlay-content p {
-  color: var(--muted);
+.overlay-info h2 {
   margin-bottom: 10px;
+  font-size: 1.8rem;
+  color: var(--accent);
 }
 
+.overlay-info p {
+  margin-bottom: 10px;
+  color: var(--muted);
+  font-size: 1rem;
+}
+
+/* Close button fixed at bottom */
 .close-btn {
   position: fixed;
   bottom: 20px;
   left: 50%;
   transform: translateX(-50%);
-  border: 1px solid #11111152;
+  border: none;
   font-size: 30px;
-  padding: 10px;margin: 0;
-  color: #fff;
-  mix-blend-mode: difference;
-  border-radius: 4px;
-  cursor: pointer;background-color: transparent;
+  color: #111;
+  cursor: pointer;
+  background-color: rgba(0,0,0,0.1);
+  border-radius: 6px;
+  padding: 8px 15px;
 }
 
+/* Smooth slide animation */
 @keyframes slideUp {
   from { transform: translateY(50px); opacity: 0; }
   to { transform: translateY(0); opacity: 1; }
 }
+
+
+
+
+
+
 
 footer {
     display: flex;
@@ -505,9 +530,11 @@ footer {
 <div class="overlay" id="overlay">
   <div class="overlay-content">
     <img id="overlayImg" src="">
-    <h2 id="overlayName"></h2>
-    <p id="overlayPrice"></p>
-    <p id="overlayDesc"></p>
+    <div class="overlay-info">
+      <h2 id="overlayName"></h2>
+      <p id="overlayPrice"></p>
+      <p id="overlayDesc"></p>
+    </div>
   </div>
   <button class="close-btn" id="closeOverlay">&#x2715;</button>
 </div>
