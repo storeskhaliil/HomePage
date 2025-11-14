@@ -41,7 +41,7 @@ export default function StartPage() {
 </p>
   
 <Link href="/tem1" className={styles.templateCard}> 
-<iframe src="/tem1" style={{width: "100%", height: "250px", borderRadius: "10px" }}></iframe>
+<iframe src="/tem1" style={{width: "100%", height: "250px", margin: "0 auto", marginTop: "30px", borderRadius: "10px" }}></iframe>
 </Link>
 </section>
 
