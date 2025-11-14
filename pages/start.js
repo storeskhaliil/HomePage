@@ -34,53 +34,51 @@ export default function StartPage() {
 
 
 <section className={styles.templates}>
-  <h2>القوالب المتوفرة</h2>
-  <div className={styles.templatesGrid}>
-    <Link href="/tem1" className={styles.templateCard}>
-      <span className={styles.templateTitle}>التصميم الاساسي</span>
-      <img src="https://pub-ee2f104c723f43b28a9c1f7bb48535d2.r2.dev/Tem1.gif" alt="قالب 1" className={styles.templateImage} />
-    </Link>
-  </div>
+<h2>القوالب المتوفرة</h2>
+
+<p className={styles.temtext}>
+القي نظرة على صفحة مطعمك المستقبلية!
+</p>
+  
+<Link href="/tem1" className={styles.templateCard}> 
+<iframe src="/tem1" style={{width: "100%", height: "250px", borderRadius: "10px" }}></iframe>
+</Link>
 </section>
 
 
 <section className={styles.subscriptions}>
   <h2>الباقات والخطط</h2>
 
-  <div className={styles.subScroll}>
-    <div className={styles.subCard}>
-      <h3>الباقة الشهرية</h3>
-      <p className={styles.price}>₪99/شهر</p>
-      <ul className={styles.features}>
-        <li>تحديثات مستمرة</li>
-        <li>دعم فني دائم</li>
-        <li>تحديثات سريعة عند الطلب</li>
-      </ul>
-      <Link href="/plans/monthly" className={styles.subLink}>المزيد / الاشتراك</Link>
-    </div>
-
-    <div className={styles.subCard}>
-      <h3>باقة الدفع لمرة واحدة</h3>
-      <p className={styles.price}>₪399</p>
-      <ul className={styles.features}>
-        <li>تصميم كامل</li>
-        <li>تحديث واحد مجاني</li>
-        <li>استضافة سنة كاملة</li>
-      </ul>
-      <Link href="/plans/one-time" className={styles.subLink}>المزيد / الاشتراك</Link>
-    </div>
-
-    <div className={styles.subCard}>
-      <h3>باقة الأعمال</h3>
-      <p className={styles.price}>₪199/شهر</p>
-      <ul className={styles.features}>
-        <li>تصميم مخصص</li>
-        <li>إدارة المحتوى</li>
-        <li>دعم优优优優</li>
-      </ul>
-      <Link href="/plans/business" className={styles.subLink}>المزيد / الاشتراك</Link>
-    </div>
+<div className={styles.subScroll}>
+  <div className={styles.subCard}>
+    <h3>STANDARD</h3>
+    <p className={styles.price}>₪900/شهر</p>
+    <ul className={styles.features}>
+      <li>موقع جاهز مع تصميم أنيق وجاهز للاستخدام</li>
+      <li>دعم فني دائم للرد على أي استفسار</li>
+      <li>تحديثات محتوى سريعة عند الطلب</li>
+      <li>رفع الموقع على Subdomain خاص بك</li>
+      <li>QR Code جاهز للربط السريع</li>
+    </ul>
+    <Link href="/plans/standard" className={styles.subLink}>المزيد / الاشتراك</Link>
   </div>
+
+  <div className={styles.subCard}>
+    <h3>PRO</h3>
+    <p className={styles.price}>₪1300/شهر</p>
+    <ul className={styles.features}>
+      <li>تصميم مخصص وحصري للزبون فقط</li>
+      <li>تحديثات فورية وتنفيذ أي تعديل بسرعة</li>
+      <li>تحسينات مستمرة للأداء والسرعة</li>
+      <li>مراقبة كاملة للموقع وحل أي مشكلة فورًا</li>
+      <li>ربط Domain خاص أو Subdomain حسب رغبتك</li>
+      <li>QR Code متقدم وجاهز للاستخدام</li>
+    </ul>
+    <Link href="/plans/pro" className={styles.subLink}>المزيد / الاشتراك</Link>
+  </div>
+</div>
+
+
 </section>
 
 
