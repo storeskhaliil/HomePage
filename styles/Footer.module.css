@@ -20,7 +20,7 @@
     width:100%;
     left: 50%;
     transform: translateX(-50%);
-    display: flex;
+    display: none;
     align-items: center;
     justify-content: space-around;
     gap:20px;
