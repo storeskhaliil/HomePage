@@ -20,15 +20,36 @@ export default function StartPage() {
           <p>كثير بسيط!</p>
         </section>
 
-        {/* Templates */}
-        <section className={styles.templates}>
-          <h2>القوالب المتوفرة</h2>
-          <div className={styles.templatesGrid}>
-            <Link href="/tem1" className={styles.templateCard}>قالب 1</Link>
-            <Link href="/tem2" className={styles.templateCard}>قالب 2</Link>
-            <Link href="/tem3" className={styles.templateCard}>قالب 3</Link>
-          </div>
+
+        <section className={styles.howItWorks}>
+          <h2>كيف يعمل كل شيء؟</h2>
+          <ol>
+            <li>تختار القالب المناسب لك.</li>
+            <li>ترسل تفاصيل القائمة والعلامة التجارية.</li>
+            <li>أقوم بتصميم الموقع وتسليمه لك.</li>
+            <li>تستلم رمز QR لتضعه في مطعمك أو حسابك.</li>
+            <li>كل تحديث تحتاجه، فقط أبلغني وسأطبقه.</li>
+          </ol>
         </section>
+
+
+<section className={styles.templates}>
+  <h2>القوالب المتوفرة</h2>
+  <div className={styles.templatesGrid}>
+    <Link href="/tem1" className={styles.templateCard}>
+      <img src="/images/tem1.jpg" alt="قالب 1" className={styles.templateImage} />
+      <span className={styles.templateTitle}>قالب 1</span>
+    </Link>
+    <Link href="/tem2" className={styles.templateCard}>
+      <img src="/images/tem2.jpg" alt="قالب 2" className={styles.templateImage} />
+      <span className={styles.templateTitle}>قالب 2</span>
+    </Link>
+    <Link href="/tem3" className={styles.templateCard}>
+      <img src="/images/tem3.jpg" alt="قالب 3" className={styles.templateImage} />
+      <span className={styles.templateTitle}>قالب 3</span>
+    </Link>
+  </div>
+</section>
 
         {/* Subscriptions */}
         <section className={styles.subscriptions}>
@@ -45,17 +66,7 @@ export default function StartPage() {
           </div>
         </section>
 
-        {/* How it works */}
-        <section className={styles.howItWorks}>
-          <h2>كيف يعمل كل شيء؟</h2>
-          <ol>
-            <li>تختار القالب المناسب لك.</li>
-            <li>ترسل تفاصيل القائمة والعلامة التجارية.</li>
-            <li>أقوم بتصميم الموقع وتسليمه لك.</li>
-            <li>تستلم رمز QR لتضعه في مطعمك أو حسابك.</li>
-            <li>كل تحديث تحتاجه، فقط أبلغني وسأطبقه.</li>
-          </ol>
-        </section>
+
       </main>
     </>
   );
