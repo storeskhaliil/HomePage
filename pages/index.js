@@ -13,6 +13,7 @@ export default function Home() {
         />
       </Head>
 
+<main className={styles.main2home}>
       <div className={styles.hero}>
         <div className={styles.overlay}>
           <h1>صمم موقع مطعمك الخاص مع <span>CRTGO</span></h1>
@@ -81,7 +82,7 @@ export default function Home() {
         <h2>تواصل معي</h2>
         <a href="/contact" className={styles.contactBtn}>تواصل الآن</a>
       </section>
-
+</main>
     </>
   );
 }
