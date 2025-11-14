@@ -19,7 +19,7 @@ export default function Footer() {
         </div>
         
         <p>
-          © {new Date().getFullYear()} CRTMenu | {" "}
+          © {new Date().getFullYear()} CRT Go | {" "}
           <a href="https://khaliil.com" target="_blank" rel="noreferrer">
             KHALIIL.COM
           </a>
