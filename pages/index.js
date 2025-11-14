@@ -6,7 +6,7 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>CrtMenu - مواقع مطاعم احترافية</title>
+        <title>CRT GO - مواقع مطاعم احترافية</title>
         <meta
           name="description"
           content="نصمم مواقع قوائم طعام رقمية احترافية للمطاعم والكافيهات — بسهولة، أناقة، وبدون تعقيد."
@@ -15,7 +15,7 @@ export default function Home() {
 
       <div className={styles.hero}>
         <div className={styles.overlay}>
-          <h1>صمم موقع مطعمك الخاص مع <span>CrtMenu</span></h1>
+          <h1>صمم موقع مطعمك الخاص مع <span>CRTGO</span></h1>
           <p>ابدأ رحلتك الرقمية — موقع أنيق لمطعمك خلال يوم واحد فقط</p>
           <Link href="/start" className={styles.cta}>
             <button>ابدأ الآن</button>
