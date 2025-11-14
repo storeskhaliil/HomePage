@@ -1,34 +1,37 @@
 @import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
 
 
+
 :root {
-  --bg-color: #1e1e1e;          /* خلفية داكنة هادية */
-  --text-color: #f5f5f5;        /* نصوص واضحة */
-  --accent-color: #3fa9f5;      /* لمسات زرقاء راقية بدل البرتقالي */
-  --card-bg: #383838;           /* خلفية الكروت */
-  --card-hover: #3fa9f5;        /* لون الكارد وقت الهفر */
-  --card-text-hover: #ffffff;   /* نص الكارد وقت الهفر */
+  --bg-color: #2f4f32;
+  --text-color: #000000;
+  --accent-color: #2f4f32;
+  --card-bg: #ffffff;
+  --card-hover: #2f4f32;
+  --card-text-hover: #ffffff;
 
-  --h1-color: #79c0ff;          /* H1 بلون أزرق فاتح وراقي */
-  --h2-color: #6bb0ff;          /* H2 متدرج أزرق */
-  --h3-color: #5a9eff;          /* H3 أزرق أغمق قليلاً */
+  --h1-color: #2f4f32;
+  --h2-color: #27602a;
+  --h3-color: #1f4b21;
 
-  --link-color: #3fa9f5;        /* روابط زرقاء */
-  --link-hover-color: #f5f5f5;  /* روابط وقت الهفر */
+  --link-color: #2f4f32;
+  --link-hover-color: #ffffff;
 
-  --button-bg: #3fa9f5;         /* أزرار زرقاء */
+  --button-bg: #2f4f32;
   --button-text: #ffffff;
-  --button-hover-bg: #5a9eff;   /* أزرار وقت الهفر أزرق أغمق */
+  --button-hover-bg: #27602a;
   --button-hover-text: #ffffff;
 
-  --input-bg: #2c2c2c;          /* خلفية المدخلات */
-  --input-text: #f5f5f5;
-  --input-border: #555555;
-  --input-focus-border: #3fa9f5; /* تركيز الأزرق */
+  --input-bg: #ffffff;
+  --input-text: #000000;
+  --input-border: #2f4f32;
+  --input-focus-border: #27602a;
 
-  --border-color: #3a3a3a;
-  --shadow-color: rgba(0,0,0,0.5);
+  --border-color: #27602a;
+  --shadow-color: rgba(0,0,0,0.3);
 }
+
+
 
 * {
   padding:0;margin:0;box-sizing: border-box;
